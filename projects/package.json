@@ -7,7 +7,7 @@
     "start:dev": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test",
+    "test": "ng test --watch=false --browsers=ChromeHeadless",
     "build:single-spa:projects": "ng build projects --configuration production",
     "serve:single-spa:projects": "ng s --project projects --disable-host-check --port 9003 --live-reload false"
   },
